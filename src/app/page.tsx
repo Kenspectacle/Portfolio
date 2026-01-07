@@ -25,7 +25,6 @@ export default function Home() {
               <span>
                 SOFTWARE ENGINEER
               </span>
-              
             </div>
         </section>
     </main>
