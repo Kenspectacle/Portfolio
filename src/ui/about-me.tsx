@@ -17,7 +17,7 @@ export default function AboutMe() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  <span>Backend Engineering</span>
+                  <span className="border-b">Backend Engineering</span>
                 </AccordionSummary>
                 <AccordionDetails>
                   <ul>
@@ -32,7 +32,7 @@ export default function AboutMe() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  <span>Frontend Engineering</span>
+                  <span className="border-b">Frontend Engineering</span>
                 </AccordionSummary>
                 <AccordionDetails>
                   <ul>
@@ -48,7 +48,7 @@ export default function AboutMe() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  <span>System Engineering</span>
+                  <span className="border-b">System Engineering</span>
                 </AccordionSummary>
                 <AccordionDetails>
                   <ul>
@@ -63,7 +63,7 @@ export default function AboutMe() {
                   aria-controls="panel2-content"
                   id="panel2-header"
                 >
-                  <span>Data Engineering</span>
+                  <span className="border-b">Data Engineering</span>
                 </AccordionSummary>
                 <AccordionDetails>
                   <ul>
