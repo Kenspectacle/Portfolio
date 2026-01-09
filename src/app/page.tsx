@@ -7,6 +7,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
+
 export default function Home() {
   return (
     <main>
@@ -34,17 +35,16 @@ export default function Home() {
             </div>
         </section>
         <section className="flex flex-col p-8 bg-slate-900 items-center justify-around">
-          <h2 className="font-extrabold">About me</h2>
-          <span>I am quite versatile in various different fields. 
-            Always ready to tackle more challenges and grow at the end of it</span>
+          <h2 className="font-extrabold m-5">About me</h2>
+          <span className="m-5">I am quite versatile in various different fields.</span> 
+          <span className="m-5">Always ready to tackle more challenges and grow at the end of it</span>
           <div>
             <ul>
-              <Accordion>
+              <Accordion className="m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
-                  className="bg-slate-950"
                 >
                   <span>Backend Engineering</span>
                 </AccordionSummary>
@@ -55,7 +55,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion className="m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
@@ -72,7 +72,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion className="m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
@@ -88,7 +88,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion>
+              <Accordion className="m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
