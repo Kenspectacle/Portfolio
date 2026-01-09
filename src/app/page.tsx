@@ -1,3 +1,5 @@
+'use client'
+
 import IntroductionText from "@/ui/introduction-text"
 import ProfileIcon from "@/ui/profile-icon"
 import Accordion from '@mui/material/Accordion';
