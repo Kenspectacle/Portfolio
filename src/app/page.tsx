@@ -35,12 +35,12 @@ export default function Home() {
             </div>
         </section>
         <section className="flex flex-col p-8 bg-slate-900 items-center justify-around">
-          <h2 className="font-extrabold m-5">About me</h2>
-          <span className="m-5">I am quite versatile in various different fields.</span> 
-          <span className="m-5">Always ready to tackle more challenges and grow at the end of it</span>
+          <h2 className="font-extrabold  text-4xl m-5">About me</h2>
+          <span className="text-2xl m-5">I am quite versatile in various different fields.</span> 
+          <span className="text-2xl m-5">Always ready to tackle more challenges and grow at the end of it</span>
           <div>
             <ul>
-              <Accordion className="m-5">
+              <Accordion className="text-2xl m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
@@ -55,7 +55,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion className="m-5">
+              <Accordion className="text-2xl m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
@@ -71,7 +71,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion className="m-5">
+              <Accordion className="text-2xl m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
@@ -86,7 +86,7 @@ export default function Home() {
                   </ul>
                 </AccordionDetails>
               </Accordion>
-              <Accordion className="m-5">
+              <Accordion className="text-2xl m-5">
                 <AccordionSummary
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
