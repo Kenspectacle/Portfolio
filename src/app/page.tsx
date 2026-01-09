@@ -60,7 +60,6 @@ export default function Home() {
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
-                  className="bg-slate-950"
                 >
                   <span>Frontend Engineering</span>
                 </AccordionSummary>
@@ -77,7 +76,6 @@ export default function Home() {
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
-                  className="bg-slate-950"
                 >
                   <span>System Engineering</span>
                 </AccordionSummary>
@@ -93,7 +91,6 @@ export default function Home() {
                   expandIcon={<ArrowDropDownIcon />}
                   aria-controls="panel2-content"
                   id="panel2-header"
-                  className="bg-slate-950"
                 >
                   <span>Data Engineering</span>
                 </AccordionSummary>
