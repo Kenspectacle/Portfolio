@@ -4,11 +4,12 @@ import Image from 'next/image';
 import CardTitle from './project-card-title';
 import CardSubTitle from './project-card-subtitle';
 import CardDescription from './project-card-description';
+import SectionHeading from './section-heading';
 
 export default function Projects() {
     return (
         <section className="flex flex-col p-8 bg-slate-700 items-center justify-around gap-5">
-            <h2 className="font-extrabold  text-4xl m-5">Projects</h2>
+            <SectionHeading>Projects</SectionHeading>
             <p className='text-2xl m-5'>Projects that made the cut, this exclude the codes written at work</p>
             <div className='flex flex-row gap-3'>
                 <Card sx={{ maxWidth: 345 }}>

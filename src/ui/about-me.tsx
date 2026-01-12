@@ -2,11 +2,12 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import SectionHeading from './section-heading';
 
 export default function AboutMe() {
     return (
         <section className="flex flex-col p-8 bg-slate-900 items-center justify-around">
-          <h2 className="font-extrabold  text-4xl m-5">About me</h2>
+          <SectionHeading>About me</SectionHeading>
           <span className="text-2xl m-5">I am quite versatile in various different fields.</span> 
           <span className="text-2xl m-5">Always ready to tackle more challenges and grow at the end of it</span>
           <div>
