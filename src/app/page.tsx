@@ -3,6 +3,7 @@
 import IntroductionText from "@/ui/introduction-text"
 import ProfileIcon from "@/ui/profile-icon"
 import AboutMe from "@/ui/about-me"
+import Projects from "@/ui/projects"
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
             </div>
         </section>
         <AboutMe />
+        <Projects />
     </main>
   )
 }

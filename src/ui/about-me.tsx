@@ -79,6 +79,9 @@ export default function AboutMe() {
               </Accordion>
             </ul>
           </div>
+          <div className='text-xl'>
+            <p>I have also done various projects to improve my skills, which is shown in the next part ;)</p>
+          </div>
         </section>
     )
 }
