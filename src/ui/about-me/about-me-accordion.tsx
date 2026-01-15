@@ -26,7 +26,7 @@ export default function AboutMeAccordion({accordionDetails, Icon } :  {accordion
                     <div className={isActive ? "text-red-600" : ""}>
                         {Icon}
                     </div>
-                    <span className={isActive ? " ml-2 border-b border-red-600" : "ml-2 border-b"}>{accordionDetails.title}</span>
+                    <span className={"ml-2 border-b" + (isActive ? " border-red-600" : "")}>{accordionDetails.title}</span>
                 </div>
                 
             </AccordionSummary>
