@@ -69,11 +69,11 @@ export default function AboutMe() {
                     id="panel2-header"
                     onClick={() => switchState(`Panel_${index}`)}
                   >
-                    <div className="flex flex-row ">
-                      <div className={isActive === `Panel_${index}` ? "text-red-600" : ""}>
+                    <div className="flex flex-row group">
+                      <div className={isActive === `Panel_${index}` ? "text-red-600" : "group-hover:text-red-600"}>
                           {aboutMeSkill.icon}
                       </div>
-                      <span className={"ml-2 border-b" + (isActive === `Panel_${index}` ? " border-red-600" : "")}>{aboutMeSkill.title}</span>
+                      <span className={"ml-2 border-b" + (isActive === `Panel_${index}` ? " border-red-600" : " group-hover:border-red-600")}>{aboutMeSkill.title}</span>
                     </div>
                   </AccordionSummary>
                   <AccordionDetails>
