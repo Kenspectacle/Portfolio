@@ -73,12 +73,12 @@ export default function AboutMe() {
                       <div className={isActive === `Panel_${index}` ? "text-red-600" : "group-hover:text-red-600"}>
                           {aboutMeSkill.icon}
                       </div>
-                      <span className={"ml-2 border-b" + (isActive === `Panel_${index}` ? " border-red-600" : " group-hover:border-red-600")}>{aboutMeSkill.title}</span>
+                      <span className={"ml-2 border-b text-2xl" + (isActive === `Panel_${index}` ? " border-red-600" : " group-hover:border-red-600")}>{aboutMeSkill.title}</span>
                     </div>
                   </AccordionSummary>
                   <AccordionDetails>
                       <ul>
-                          {aboutMeSkill.skills.map(e => <li key={e}>{e}</li>)}
+                          {aboutMeSkill.skills.map(e => <li key={e} className="text-2xl">{e}</li>)}
                       </ul>
                   </AccordionDetails>
               </Accordion>
