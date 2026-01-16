@@ -40,8 +40,8 @@ const aboutMeSkills = [
 
 
 export default function AboutMe() {
-  const [isActive, setIsActive] = useState<string | false>('panel_0');
-  const [expanded, setExpanded] = useState<string | false>('panel_0')
+  const [isActive, setIsActive] = useState<string | false>('Panel_0');
+  const [expanded, setExpanded] = useState<string | false>('Panel_0');
 
   const switchState = (panel : string) => {
       isActive && isActive === panel ? setIsActive(false) : setIsActive(panel);
