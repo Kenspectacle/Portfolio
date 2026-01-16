@@ -57,7 +57,7 @@ export default function AboutMe() {
         <SectionHeading>About me</SectionHeading>
         <span className="text-2xl m-5">I am quite versatile in various different fields.</span> 
         <span className="text-2xl m-5">Always ready to tackle more challenges and grow at the end of it</span>
-        <div>
+        <div className="m-10">
             {aboutMeSkills.map((aboutMeSkill, index) =>
               <Accordion
                 key={index}
