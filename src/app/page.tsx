@@ -4,7 +4,6 @@ import IntroductionText from "@/ui/introduction-text"
 import ProfileIcon from "@/ui/profile-icon"
 import AboutMe from "@/ui/about-me/about-me"
 import Projects from "@/ui/projects"
-import Contact from "@/ui/contact-me"
 
 export default function Home() {
   return (
